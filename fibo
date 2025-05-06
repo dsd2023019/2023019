@@ -1,17 +1,17 @@
-1. #include <stdlib.h> 
- 2. #include <stdio.h> 
- 3. #include “fibo.h” 
- 4.   
- 5. Int main (int argc, char * argv []) 
- 6. { 
- 7. Long ret; 
- 8. Int n; 
- 9.  If (argc<2){ 
-10. Fprintf (stderr, “missing index.\n”); 
-11. Return -1; 
-12. } 
-13. N=atoi (argv [1]); 
-14. Ret = fibo (n); 
-15. Printf (“Fibo (%d) is %ld\n”,n,ret); 
-16. Return EXIT_SUCCESS; 
-17. }
+#include <stdlib.h> 
+ #include <stdio.h> 
+ #include “fibo.h” 
+   
+ Int main (int argc, char * argv []) 
+ { 
+ Long ret; 
+ Int n; 
+  If (argc<2){ 
+ Fprintf (stderr, “missing index.\n”); 
+ Return -1; 
+ } 
+ N=atoi (argv [1]); 
+ Ret = fibo (n); 
+Printf (“Fibo (%d) is %ld\n”,n,ret); 
+Return EXIT_SUCCESS; 
+}
